@@ -1,5 +1,4 @@
 """
-src/database/schema_extractor.py
 Extracts table schemas from SQLite and converts to text for ChromaDB.
 """
 

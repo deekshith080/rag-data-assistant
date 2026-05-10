@@ -1,5 +1,4 @@
 """
-src/embeddings/vector_store.py
 Stores table schemas as embeddings in ChromaDB.
 Uses Ollama for free local embeddings — no API key needed.
 """
