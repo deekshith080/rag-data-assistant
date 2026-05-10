@@ -1,0 +1,25 @@
+# requirements.txt
+# RAG Data Assistant dependencies
+
+# RAG and LLM
+langchain
+langchain-openai
+langchain-community
+chromadb
+ollama
+
+# API
+fastapi
+uvicorn
+pydantic
+
+# Data
+pandas
+numpy
+
+# Dashboard
+streamlit
+
+# Utilities
+python-dotenv
+requests
