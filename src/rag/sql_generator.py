@@ -1,5 +1,4 @@
 """
-src/rag/sql_generator.py
 Generates SQL from natural language using RAG + Llama3.
 1. Retrieves relevant schemas from ChromaDB
 2. Builds prompt with schemas + question
@@ -119,7 +118,7 @@ class SQLGenerator:
             "columns": result["columns"],
             "rows": result["rows"],
             "row_count": result["row_count"],
-            "error": result.get("error", None),
+            "error": result.get("error") or "",
         }
 
 
